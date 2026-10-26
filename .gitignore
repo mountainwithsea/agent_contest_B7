@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Private/local application state and distribution outputs
+.env
+.env.*
+!.env.example
+.runtime/
+data/
+logs/
+shared/runtime/
+node_modules/
+release/staging/
+release/artifacts/
+release/cache/
+release/acceptance-profile*/
+*.pid

@@ -1,0 +1,69 @@
+{
+  "ruby": {
+    "url": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.12-2/rubyinstaller-3.3.12-2-x64.7z",
+    "sha256": "a5fd5ff28569d93513b93e1d298532cd6ffa87e07c700db065262f50908a2bd0"
+  },
+  "gems": [
+    {
+      "name": "activesupport",
+      "version": "6.1.7.6",
+      "sha256": "b3b7a04426d32cad7aa2ee15fa877030c87afd82d89e6e348886cc0c606c19da"
+    },
+    {
+      "name": "anystyle",
+      "version": "1.5.0",
+      "sha256": "15b10a132d16068b08ad262f9521f66f28e60cfa3dcd2be7227263de657557fd"
+    },
+    {
+      "name": "builder",
+      "version": "3.2.4",
+      "sha256": "99caf08af60c8d7f3a6b004029c4c3c0bdaebced6c949165fe98f1db27fbbc10"
+    },
+    {
+      "name": "citeproc",
+      "version": "1.0.10",
+      "sha256": "829a0a2e291a3afd1cde39dce4880df6253b0fecd26226275265ea59a52e748f"
+    },
+    {
+      "name": "concurrent-ruby",
+      "version": "1.2.2",
+      "sha256": "3879119b8b75e3b62616acc256c64a134d0b0a7a9a3fcba5a233025bcde22c4f"
+    },
+    {
+      "name": "edtf",
+      "version": "3.1.1",
+      "sha256": "bfd86d43c0c8f2b627bb25bdc9641a72255d0d6db8d50f6168b170b756820bc0"
+    },
+    {
+      "name": "i18n",
+      "version": "1.14.1",
+      "sha256": "9d03698903547c060928e70a9bc8b6b87fda674453cda918fc7ab80235ae4a61"
+    },
+    {
+      "name": "namae",
+      "version": "1.2.0",
+      "sha256": "3541ce4b086fd4981d2376630c03e284402bfe1cdbab4e50e2222a72aeb9d59d"
+    },
+    {
+      "name": "tzinfo",
+      "version": "2.0.6",
+      "sha256": "8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b"
+    },
+    {
+      "name": "unicode-scripts",
+      "version": "1.9.0",
+      "sha256": "b9c9fbaf405b67f9fa3bbadcc66bbb539f5148c9b11126c23038655bb4665d54"
+    },
+    {
+      "name": "wapiti",
+      "version": "2.1.0",
+      "sha256": "4d419b8e64eff82aba010fe082c36811b37fd173549d38488f73dd02963d70a5"
+    },
+    {
+      "name": "zeitwerk",
+      "version": "2.6.12",
+      "sha256": "561e12975d0332fd3b62cc859aff3bab432e5f320689c8a10cd4674b5c0439be"
+    }
+  ],
+  "node": "use installed Node.js; versions fixed in package-lock.json"
+}

@@ -1,0 +1,440 @@
+{
+  "source": "agent_contest_zzu_merge reference snapshot 0.1.2",
+  "copied_source_files": [
+    {
+      "path": "reference-checker/ref_app/anystyle_formatter.py",
+      "sha256": "3dcce1429aa9ee2182f8465cf2b36f3464e769e9b5f5efab62233d260cb21ddc"
+    },
+    {
+      "path": "reference-checker/ref_app/balanced.py",
+      "sha256": "121ab89a8b9ab5c68fd62c9652aabadb658718eef2b1ee2f92e1c37d780fa3f6"
+    },
+    {
+      "path": "reference-checker/ref_app/bibliographic_normalization.py",
+      "sha256": "0d950475bbf3ebc83ead93a543ab4dbe4cac4297490bcd1c175a70ed45c3038f"
+    },
+    {
+      "path": "reference-checker/ref_app/continuation.py",
+      "sha256": "c7e7ac95e7a92b5a0ae7c62b5ed8a47dec13e5343148fe8e96fa6de289691cb5"
+    },
+    {
+      "path": "reference-checker/ref_app/efficient.py",
+      "sha256": "c1383a61ddc48e4174d97bc14282e458369e7405d89eb8bf4f790540a905b2f3"
+    },
+    {
+      "path": "reference-checker/ref_app/format_anystyle.rb",
+      "sha256": "0a7009be54f6ac0f7d54abb7b43a854ebfb6c34dfece728e667797631820104a"
+    },
+    {
+      "path": "reference-checker/ref_app/format_locale.cjs",
+      "sha256": "c9fc29a56e4ea4968d5ff0ba21ec090d9dd584c93cd184ec70d7f2b37fee8c56"
+    },
+    {
+      "path": "reference-checker/ref_app/jobs.py",
+      "sha256": "2c880cb05100ced87cfaf5bc69a6cc278675109a7eb7e26268cbffac641f461e"
+    },
+    {
+      "path": "reference-checker/ref_app/lifecycle.py",
+      "sha256": "f5cddd2d3d13f31245b87afd1c383758f730616ac2fcb72e4ef024318caa69e0"
+    },
+    {
+      "path": "reference-checker/ref_app/local_parsers.py",
+      "sha256": "fda86abbc3fbd20a3112d345a53d169b5cdd081db723fbaba9ff1b3dc7ac712b"
+    },
+    {
+      "path": "reference-checker/ref_app/parser_adapters.py",
+      "sha256": "fdedd885a69e12493c226a14640dc94cb1edb44a91a86444d315fdf08d7a0a81"
+    },
+    {
+      "path": "reference-checker/ref_app/parser_report.py",
+      "sha256": "34252606f33878ef9cf4d122b34e9be704f44e47b35026a01306c5403df3f385"
+    },
+    {
+      "path": "reference-checker/ref_app/parsing.py",
+      "sha256": "7222f4269d729ac45d44b5a4cf7c7a0f6def2eb2e60dd2c3993b28e2cb93c226"
+    },
+    {
+      "path": "reference-checker/ref_app/providers.py",
+      "sha256": "db48c07e429e388f59b7a49fb555d4a3c07c722812d7e327c2c13d48d39dabcb"
+    },
+    {
+      "path": "reference-checker/ref_app/public_parsers.py",
+      "sha256": "d8ccd353f3aa0bb6665bcbe21c5c2b13187b59ec03e31b1be407c3007e58f840"
+    },
+    {
+      "path": "reference-checker/ref_app/qualification.py",
+      "sha256": "015083e0d3a8c26e9bbc24760804d94b0c14f9566309c41211f8ccad522bcd9d"
+    },
+    {
+      "path": "reference-checker/ref_app/README.md",
+      "sha256": "44ad0f39d3373938a83739d1412ff80face4514554d416f6a77741eb1779afca"
+    },
+    {
+      "path": "reference-checker/ref_app/retrieval.py",
+      "sha256": "75ce6d61ec8531ddebba31ec2594a48cdba8b6bc85f730ac191fb04b0ed1d8f5"
+    },
+    {
+      "path": "reference-checker/ref_app/run_qualified.py",
+      "sha256": "084656847195e475d7ff938d0de13d2fedadb273f861112a54ba5a630b616ea6"
+    },
+    {
+      "path": "reference-checker/ref_app/visual_process.py",
+      "sha256": "54ea77433b2f32f55278ae7a3602af9f54c33797e51ce5526bc8c59204c78b38"
+    },
+    {
+      "path": "reference-checker/ref_app/worker.py",
+      "sha256": "9cf50a919ee1d77a61358c07886e024c8032ffff9b6c1416690a0bb03ffa81b3"
+    },
+    {
+      "path": "reference-checker/ref_app/__init__.py",
+      "sha256": "9b3ca5c2c178aa05afa7e9cb868f0ea6ed0bd469c4f73567ee00df49a8dbef54"
+    },
+    {
+      "path": "reference-checker/ref_app/__main__.py",
+      "sha256": "65ecc0e11be82de84c0f4f56a2a6755690b0629043a32f617371dfa4648e0e86"
+    },
+    {
+      "path": "reference-checker/ref_app/static/index.html",
+      "sha256": "3cb21a270768fb0c6f22f8057eb7c8f1d3b75c991f8ed01cadc4dd8dd194102b"
+    },
+    {
+      "path": "reference-checker/ref_app/static/process.css",
+      "sha256": "01ecd4e2e1a1aea00826b6ca13f76dd3869607ce454505ed31417ae713d05e28"
+    },
+    {
+      "path": "reference-checker/ref_app/static/process.js",
+      "sha256": "f57df8df5a3f306676c0bceab631d90fd8f1d7d9416dd6cf26135ec86264a247"
+    },
+    {
+      "path": "reference-checker/reference_extractor/api.py",
+      "sha256": "772bcbba498e4f1f886fd41d9e7e3c1645751fc9dc3485cc7aa318b6322c7909"
+    },
+    {
+      "path": "reference-checker/reference_extractor/config.py",
+      "sha256": "3e91054b6821aeebf01d43b02f2b93f7f0f05625d9f6907dcfc347bdd717e1f5"
+    },
+    {
+      "path": "reference-checker/reference_extractor/heading_layout.py",
+      "sha256": "159a6ea110b780da331c198abb93643c2fe7805213106bc03ae30e63972beffa"
+    },
+    {
+      "path": "reference-checker/reference_extractor/pipeline.py",
+      "sha256": "6f166317068950a7cb0c8d22a5e20bb9c7ce5c7d68003e8f88b2190422c8d243"
+    },
+    {
+      "path": "reference-checker/reference_extractor/readers.py",
+      "sha256": "5a4ec313252f00b8118834430d1611c2157085c4cf9fcff58776a65305ebd456"
+    },
+    {
+      "path": "reference-checker/reference_extractor/README.md",
+      "sha256": "7e10b36c34257c4712b361be262fc9195505da49c2dd4b9e4086e57c2a4773df"
+    },
+    {
+      "path": "reference-checker/reference_extractor/rules.py",
+      "sha256": "13ffeab6af8da8aa12037e9a05aeed65eddc9ffd7fddeca54d6a87bf3e26d74b"
+    },
+    {
+      "path": "reference-checker/reference_extractor/schema.py",
+      "sha256": "2d5b7e4b627376453a080f9da5f2958a301337ec21fb7d99d2721de507f601e5"
+    },
+    {
+      "path": "reference-checker/reference_extractor/__init__.py",
+      "sha256": "ba7714e8d62d2aaa53f997db36c6e4e1399d70f078d01ff24793247623124eb1"
+    },
+    {
+      "path": "reference-checker/reference_extractor/__main__.py",
+      "sha256": "9a0b67f23c0781c635e6e07a74c5c5f732e73a40c8fcf2967a149bba3caa213e"
+    },
+    {
+      "path": "reference-checker/reference_identity/assessment.py",
+      "sha256": "8f24d11874bd292a39a8677e68ad51870cc20252afc42d33af255401a89275a2"
+    },
+    {
+      "path": "reference-checker/reference_identity/client.py",
+      "sha256": "51ad1892fc3a50a9b4c0e7b96c0486b0d7913c1c89a5101bfa690b1e53c915c9"
+    },
+    {
+      "path": "reference-checker/reference_identity/engine.py",
+      "sha256": "4e797310ca58eec09c8f8cabfbb26849ef87aabb3bf61ba81fe265e49d234e22"
+    },
+    {
+      "path": "reference-checker/reference_identity/evidence.py",
+      "sha256": "5d202140ff28b7ad7d39425eb570ddb7d48d80f66bedcf10c07159802f8a8f9c"
+    },
+    {
+      "path": "reference-checker/reference_identity/README.md",
+      "sha256": "ffd15f9b7bba44c55c87929544261294f80e928ee7e84de2a171135f1a3e18b2"
+    },
+    {
+      "path": "reference-checker/reference_identity/report.py",
+      "sha256": "af518eb524520f8f774a5691d9831f554916c621a3d357938df4b08fe1982fbe"
+    },
+    {
+      "path": "reference-checker/reference_identity/tools.py",
+      "sha256": "f11fe81b55fcf8ee97473f1998a6fc86114067b2d7d417f7baaa2ff8a0dcc785"
+    },
+    {
+      "path": "reference-checker/reference_identity/__init__.py",
+      "sha256": "a63abe36fee8be4c7c8ee7b1dc41108306a748ebe93e4d9a5f12599f0112c574"
+    },
+    {
+      "path": "reference-checker/reference_identity/__main__.py",
+      "sha256": "5760f16232467c6b557025e0ef173dc4eddcdf2e72a6b227e899817fd7bdc11b"
+    },
+    {
+      "path": "reference-checker/tests/test_anystyle_formatter.py",
+      "sha256": "0312183128706929d4c2e0f11583994625c54693a1fe2e9fc10492d9feb15d15"
+    },
+    {
+      "path": "reference-checker/tests/test_atomic_io.py",
+      "sha256": "750956499a5f48e9f291599b2ecece2cf01a9117f266514040c12a61afee698e"
+    },
+    {
+      "path": "reference-checker/tests/test_balanced_report.py",
+      "sha256": "7b1f82a7a0f1c6adc632a73de8a1e0fdabb8a99f1fd74bd50b9b0bee65e9ff93"
+    },
+    {
+      "path": "reference-checker/tests/test_bibliographic_normalization.py",
+      "sha256": "5fbff5f39b7970b638212008edb2be5fdb57d40f6426aac6563bd45f203f0370"
+    },
+    {
+      "path": "reference-checker/tests/test_continuation.py",
+      "sha256": "9a9511d62f0b0995913202edfc4640489d4c7e7889f3024f941601565c438ceb"
+    },
+    {
+      "path": "reference-checker/tests/test_efficient.py",
+      "sha256": "688afce26828c11f3ba2009723b3c3b9380a290ffbe7d3acb90d0f4dab95d5e0"
+    },
+    {
+      "path": "reference-checker/tests/test_extraction_rules.py",
+      "sha256": "77fdc62eca7ddc2c81b20ce4eb8fafb14c415f3489e6e258399cb085ddf3248f"
+    },
+    {
+      "path": "reference-checker/tests/test_failure_audit.py",
+      "sha256": "f3077b29d4aecf2980e9b8389d79e25a0809c6a9683c8bf5b9fb357a8af798d5"
+    },
+    {
+      "path": "reference-checker/tests/test_file_summary.py",
+      "sha256": "fb54cd26cb2df6cead2a68ef067e6a3f1ea5b861f5fe6475eef4444cb8fb2aba"
+    },
+    {
+      "path": "reference-checker/tests/test_formatter_electron.py",
+      "sha256": "e9516554f146fb0c96b1fd1d12638c0a2d59fe1c2386c77ddabb6bb42847f94f"
+    },
+    {
+      "path": "reference-checker/tests/test_heading_layout.py",
+      "sha256": "0e1260eeba6a607953111c5d7e49e872b759d65dc62f73e4b44d2122e90cd55a"
+    },
+    {
+      "path": "reference-checker/tests/test_identity_dimensions.py",
+      "sha256": "86610492008ac4a935120ab51469006eb060a8f974cbf3c8ac5aa3e55e614c91"
+    },
+    {
+      "path": "reference-checker/tests/test_identity_model_client.py",
+      "sha256": "b2db63f3be7d8828301f786c84bb328ae357c093db5d9499455ce6a3e371f41f"
+    },
+    {
+      "path": "reference-checker/tests/test_local_parsers.py",
+      "sha256": "20b9f4743725492b7dfdf36acd1e296b2795f68876069bd6e31d6a0591446adc"
+    },
+    {
+      "path": "reference-checker/tests/test_network_recovery.py",
+      "sha256": "a88d840ec2cfc8c974c03c1936c97854913feccebb8f2a17085785251915dd85"
+    },
+    {
+      "path": "reference-checker/tests/test_numbered_retention.py",
+      "sha256": "45f48dd558f7f90d8e85c872b16f1803378059f2e9e67c128f59b4fe73d7dd16"
+    },
+    {
+      "path": "reference-checker/tests/test_openalex_config.py",
+      "sha256": "15e0c573973513ac6c85120121a3d04643e33d9fb8703ae03b6568b16437e862"
+    },
+    {
+      "path": "reference-checker/tests/test_public_parsers.py",
+      "sha256": "0af16e730b602dffd679f76027412c7d7bd4788a4119ec4fdaa814dc44738f7a"
+    },
+    {
+      "path": "reference-checker/tests/test_qualification.py",
+      "sha256": "b8f12158d8ea316d1ca442f177fb5c7fada264b9df9727426155e204362975fe"
+    },
+    {
+      "path": "reference-checker/tests/test_qualified_run.py",
+      "sha256": "1910c484ebf7f3f439354dcb637f90c89f832a3730113996f0ddcc3ed9affec8"
+    },
+    {
+      "path": "reference-checker/tests/test_reference_extractor.py",
+      "sha256": "ec187be7271eae758119bf0a59f47d43dc1ae2313c8f9e2a4fba93e64d9b9e51"
+    },
+    {
+      "path": "reference-checker/tests/test_reference_identity.py",
+      "sha256": "32b0edb4c992e97c5c7eec43205d29064affff55e79c7ab2db6adbad0041bd43"
+    },
+    {
+      "path": "reference-checker/tests/test_reference_parsing.py",
+      "sha256": "b4d8eedaa18a3f493deb0a1ad00278acecd6159dc1b7f7c7792f4090748f71fe"
+    },
+    {
+      "path": "reference-checker/tests/test_ref_app.py",
+      "sha256": "882790cf5d24eec6730810cc8ae1d06d7cd987d5bac12377284b8a0aca9565c9"
+    },
+    {
+      "path": "reference-checker/tests/test_retrieval.py",
+      "sha256": "1f25251d34f8c6e3b04f68debf2e5e9a247305cca330e348701d063754490065"
+    },
+    {
+      "path": "reference-checker/tests/test_structured_name_adapters.py",
+      "sha256": "aab664e7f393893c0846ddc3d1fff59bdf7a4a0deda0cbca3d7d000954984991"
+    },
+    {
+      "path": "reference-checker/tests/test_visual_fields.py",
+      "sha256": "f15d6acd004c217a079aec8c23f0100314447ee3c0c648ffa78bab5af4025cd0"
+    },
+    {
+      "path": "reference-checker/tests/test_visual_process.py",
+      "sha256": "2f86234ec22f5c7fffa2612d2bbdb251f8cf0df53c5a84052ec915f4d91d0ee5"
+    },
+    {
+      "path": "b7_shared/config.py",
+      "sha256": "012caaf236358366e85f7d788fd03809236eac2655062f4663670466114b8c83"
+    },
+    {
+      "path": "b7_shared/http_policy.py",
+      "sha256": "478a7e860ce28c527aff091bb5a027caca529e86a76e0ac70af999b8811b5e92"
+    },
+    {
+      "path": "b7_shared/lifecycle.py",
+      "sha256": "ba5445f817950a0f7cdd7caccc7752993855563d3498272531317608897a0723"
+    },
+    {
+      "path": "b7_shared/__init__.py",
+      "sha256": "6f291f552dca06074f06f94bdbdf95193555fffb1666fa119eb1d31a696638c3"
+    },
+    {
+      "path": "release/desktop/child_lifecycle.py",
+      "sha256": "71ff060084afb12a6270e68707cfd64dd3992bdc36b0fb445aed6d4bbfffd61d"
+    },
+    {
+      "path": "release/desktop/connections.cjs",
+      "sha256": "4ac6ad17e70f5e75acdc5fe0fe0181097b3dcc1202dcbf71e46d7b19c696534a"
+    },
+    {
+      "path": "release/desktop/index.html",
+      "sha256": "cd3067715abff0225e02da42bfae2ce7ecfae82dc021374e899eb39793450b69"
+    },
+    {
+      "path": "release/desktop/main.cjs",
+      "sha256": "8d56153adf6bfe85e910da11a2a1a55ac47e47b01a51dd242b715d50b1f93315"
+    },
+    {
+      "path": "release/desktop/preload.cjs",
+      "sha256": "3e49b2dde706cb23aae8d0edbec74ab47227e4441ca5493421222acd6b5f2fcc"
+    },
+    {
+      "path": "release/desktop/renderer.js",
+      "sha256": "c2435a7e8679d5d70da459e25c2a2191531c163caf6697169e6cd597f04c5f53"
+    },
+    {
+      "path": "release/desktop/services.cjs",
+      "sha256": "cb14514af1df09ab5bd03228882b56385c898277f42094a3254f775e0bba3fc9"
+    },
+    {
+      "path": "release/desktop/settings.cjs",
+      "sha256": "940e6606743ef1c468635574ecf1ee4eea2b46f06ad62c2e9ba3cd2215e276d8"
+    },
+    {
+      "path": "release/desktop/style.css",
+      "sha256": "59b7134b18a9c9e63a8e535f788671f273a389cf6421a5d05e48efc9b70ce8d8"
+    },
+    {
+      "path": "release/tests/connections.test.cjs",
+      "sha256": "c094b793ec1e58b97de51b56bea4f335b703f86d52423cfd23bb41cb34609a9a"
+    },
+    {
+      "path": "release/tests/settings.test.cjs",
+      "sha256": "4a18d932c65ae5a2363e200f7f3b6660e8b57bf75f92bfce6302c85b97c45458"
+    },
+    {
+      "path": "release/tests/test_payload_policy.py",
+      "sha256": "9cce03a6134c3a7c1fa64581e8471617d4f9b342a4ddced1fba4473f942dd092"
+    },
+    {
+      "path": "release/assets/icon.ico",
+      "sha256": "23d86f0684383d8913d9165c171f8b0338f5331d4fefb164b311bd022750774c"
+    },
+    {
+      "path": "release/assets/icon.png",
+      "sha256": "ca7520d05838a4bdda4c2f97e5219609b951d48245704399fe50bbdf949bf8d1"
+    },
+    {
+      "path": "shared/licenses/Node-LICENSE.txt",
+      "sha256": "148eacf7863ef4329224a29398623077200a27194aa075569faf4a0a85566ca5"
+    },
+    {
+      "path": "reference-checker/requirements.txt",
+      "sha256": "80f7be0e0f4b313db399c985374d1d24c66aa37bd563b2937a800b60b39c4d0c"
+    },
+    {
+      "path": "reference-checker/requirements.lock.txt",
+      "sha256": "f54983390a9b16155f1aaa24253d8dc364ecdbab782e9bf1850dfb893452abb2"
+    },
+    {
+      "path": "release/package.json",
+      "sha256": "aa5aee56c984170915b9022b967d456c3d2e4e324ec60242d0334fb1c48ccb8d"
+    },
+    {
+      "path": "release/package-lock.json",
+      "sha256": "2a13953f2149a33f722c4f3a32d959ddfe87070fb2f9e2b056476907024854b8"
+    },
+    {
+      "path": "release/build_payload.py",
+      "sha256": "b32fa4cfe50c5673cdcdb088a93f5fe72d7286eaace10ebe3820018a7e580867"
+    },
+    {
+      "path": "release/build.ps1",
+      "sha256": "f423e042bcc96338b2b191b725e4559cd6454502efb6899799f89bc59a6171c4"
+    },
+    {
+      "path": "shared/anystyle-runtime-lock.json",
+      "sha256": "752b735e29665e4278c6c35e88f4087444c9736cdd639be04c54b4b3b64884e8"
+    },
+    {
+      "path": "tests/test_http_policy.py",
+      "sha256": "af4a19495bfe6fe16d6970f23f357f35a932d05f6308815f65d09fcf1c4f5742"
+    },
+    {
+      "path": "tests/test_suite_lock.py",
+      "sha256": "af33feb4e09280b03a4fd0015a4c9f6b3e0be1dde814a357483e969674b5749f"
+    },
+    {
+      "path": "tests/test_reference_integration.py",
+      "sha256": "1e20ef544bb5d48c168260ac8414095c24451a3f90c508929f906a80d28f7b67"
+    }
+  ],
+  "original_source_untouched": true,
+  "excluded": "credentials, task records, binary runtimes, installers and other application",
+  "standalone_adjusted_files": [
+    "reference-checker/ref_app/anystyle_formatter.py",
+    "reference-checker/ref_app/format_anystyle.rb",
+    "reference-checker/ref_app/parser_adapters.py",
+    "reference-checker/ref_app/providers.py",
+    "reference-checker/ref_app/README.md",
+    "reference-checker/ref_app/worker.py",
+    "reference-checker/reference_extractor/schema.py",
+    "reference-checker/tests/test_anystyle_formatter.py",
+    "reference-checker/tests/test_atomic_io.py",
+    "reference-checker/tests/test_formatter_electron.py",
+    "b7_shared/config.py",
+    "b7_shared/lifecycle.py",
+    "release/desktop/index.html",
+    "release/desktop/main.cjs",
+    "release/desktop/renderer.js",
+    "release/desktop/services.cjs",
+    "release/desktop/settings.cjs",
+    "release/tests/settings.test.cjs",
+    "release/tests/test_payload_policy.py",
+    "release/package.json",
+    "release/package-lock.json",
+    "release/build_payload.py"
+  ],
+  "original_source_hashes_verified_unchanged": true
+}

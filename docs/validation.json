@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-26",
+  "scope": "Standalone source migration; no new installer build",
+  "reference_tests": {
+    "run": 252,
+    "passed": 250,
+    "skipped_optional_local_formatter": 2
+  },
+  "local_formatter_separate_validation": {
+    "run": 2,
+    "passed": 2,
+    "runtime": "Explicit external Ruby/Node binaries; no old application source imported"
+  },
+  "desktop_node_tests": {
+    "run": 9,
+    "passed": 9
+  },
+  "payload_policy_tests": {
+    "run": 1,
+    "passed": 1
+  },
+  "live_http_smoke": {
+    "references": 2,
+    "confirmed": 2,
+    "seconds": 13.242,
+    "format_mode": "remote",
+    "model_calls": 0,
+    "search_calls": 0,
+    "task_data": "temporary, removed"
+  },
+  "launcher_smoke": {
+    "startup": true,
+    "console_shutdown": true,
+    "backend_stopped": true
+  },
+  "independent_review": "External runtime path override issue found, regression-tested and fixed",
+  "platform": "Windows x64, Python 3.13; desktop binary build and other platforms not verified",
+  "standalone_and_shared_tests": {
+    "run": 16,
+    "passed": 16
+  }
+}
