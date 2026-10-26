@@ -16,7 +16,7 @@ Exclude private .env, task data, historical papers and datasets, cloned research
 - [x] Add standalone isolation regressions; observe failures against mixed configuration, then remove coupling from config, launcher, desktop UI, service manager and build payload.
 - [x] Document installation, API configuration, workflow, desktop build and third-party origins; include an empty-key env template and ignore rules.
 - [x] Run reference and shared tests, desktop tests and a fresh-profile HTTP smoke test. Check staged source for secrets, forbidden artifacts and unintended changes.
-- [ ] Commit explicit paths, push the existing main branch without force, verify the remote commit and clean local status.
+- [x] Commit explicit paths, push the existing main branch without force, verify the remote commit and clean local status.
 
 ## Decisions
 
@@ -31,3 +31,5 @@ Real HTTP two-reference run: both confirmed; total 13.242 seconds, remote public
 Independent review found that child_environment replaced configured external formatter paths. Reproduced with a regression, fixed, and verified. Launcher console-shutdown smoke exposed an indefinite Windows native wait that deferred signal handling; bounded waits fixed it. Actual startup, Ctrl+Break shutdown and backend termination then passed.
 
 No independent desktop installer was built in this migration; the previous combined installer is not a release of this repository.
+
+Source commit aafde20de0ac1eb3a914e906ec630ad0796f97ce was pushed to mountainwithsea/agent_contest_B7 main after the user completed GitHub device authorization. The remote main hash matched the local source commit, and the working tree was clean. This final documentation update records completion.
